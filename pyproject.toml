@@ -1,0 +1,16 @@
+[project]
+name = "pr-agent"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+requires-python = ">=3.12"
+dependencies = [
+    "colorama>=0.4.6",
+    "google-genai>=2.25.0",
+    "langchain>=1.4.3",
+    "langchain-google-genai>=4.4.0",
+    "langgraph-api>=0.15.1",
+    "langgraph-cli[inmem]>=0.4.32",
+    "langsmith>=0.14.1",
+    "python-dotenv>=1.2.3",
+]
